@@ -219,6 +219,7 @@ ul { list-style: none; }
   
   /* Create an elegant 2-column grid on mobile to prevent massive stretching */
   .product-grid { grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  .product-info { padding: 0 0.5rem; }
   .product-name { font-size: 1rem; margin: 0.3rem 0; }
   .product-category { font-size: 0.65rem; }
   .product-price { font-size: 0.85rem; }
