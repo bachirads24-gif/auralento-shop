@@ -215,9 +215,13 @@ ul { list-style: none; }
   .hero { height: 100vh; height: 100dvh; } 
   .hero-title { font-size: 2.3rem; margin-bottom: 1rem; }
   .hero-subtitle { font-size: 0.95rem; margin-bottom: 2rem; padding: 0 0.5rem; }
-  .section-title { font-size: 2rem; }
+  .section-title { font-size: 1.8rem; }
   
-  .product-grid { grid-template-columns: 1fr; gap: 2.5rem; }
+  /* Create an elegant 2-column grid on mobile to prevent massive stretching */
+  .product-grid { grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  .product-name { font-size: 1rem; margin: 0.3rem 0; }
+  .product-category { font-size: 0.65rem; }
+  .product-price { font-size: 0.85rem; }
   
   .footer-grid { grid-template-columns: 1fr; text-align: center; gap: 2.5rem; }
   .footer-logo { height: 60px; margin: 0 auto 1rem auto; }
