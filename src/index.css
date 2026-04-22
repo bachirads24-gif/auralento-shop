@@ -113,10 +113,16 @@ ul { list-style: none; }
   border-bottom: 1px solid rgba(15, 38, 27, 0.1);
 }
 .navbar-container {
+  position: relative;
   display: flex; justify-content: space-between; align-items: center;
   max-width: 1440px; margin: 0 auto; padding: 0 var(--spacing-md);
 }
-.logo-container { text-align: center; }
+.logo-container {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
 .navbar-logo {
   height: 65px; 
   filter: brightness(0) invert(1);
