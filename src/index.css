@@ -115,7 +115,7 @@ ul { list-style: none; }
 .navbar-container {
   position: relative;
   display: flex; justify-content: space-between; align-items: center;
-  width: 100%; padding: 0 var(--spacing-lg);
+  width: 100%; padding: 0 var(--spacing-md);
 }
 .logo-container {
   position: absolute;
@@ -140,7 +140,7 @@ ul { list-style: none; }
   margin-bottom: 0.5rem;
 }
 .nav-links { display: flex; gap: var(--spacing-md); font-size: 0.9rem; letter-spacing: 1px; }
-.nav-right { display: flex; gap: var(--spacing-lg); align-items: center; }
+.nav-right { display: flex; gap: var(--spacing-md); align-items: center; }
 .nav-icons { display: flex; gap: var(--spacing-sm); }
 .nav-icons button { color: inherit; }
 
